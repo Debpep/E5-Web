@@ -1,0 +1,24 @@
+:root {
+    --background: #252525;
+    --secondary: background: linear-gradient(98.81deg, #FFA100 -0.82%, #FB103D 101.53%);
+    --text-white: #FFFFFF;
+    --bg-yellow:#FFA400;
+    --bg-red:#FC2933;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: var(--background); font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
