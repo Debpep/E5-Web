@@ -1,6 +1,5 @@
 :root {
     --background: #252525;
-    --secondary: background: linear-gradient(98.81deg, #FFA100 -0.82%, #FB103D 101.53%);
     --text-white: #FFFFFF;
     --bg-yellow:#FFA400;
     --bg-red:#FC2933;
@@ -14,8 +13,11 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+body {
+    background-color: var(--background);
+}
+
 header {
-    background-color: var(--background); 
     font-family: 'Montserrat', sans-serif;
     display: flex;
     justify-content: space-between;
@@ -58,7 +60,6 @@ header {
 
 
 main {
-    background: var(--background);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -92,3 +93,38 @@ main {
     font-size: 21px;
 }
 
+.hero-info a {
+    color: var(--text-white);
+    width: 166px;
+    padding: 18px 0px;
+    border-radius: 15px;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    background-color:  background: rgb(255,161,0);
+    background: linear-gradient(90deg, rgba(255,161,0,1) 0%, rgba(251,16,61,1) 100%); 
+}
+
+.card {
+    width: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.photo-1 {
+    width: 265px;
+    height: 265px;
+}
+
+.photo-2 {
+    width: 392px;
+    height: 392px;
+}
+
+.recommendations h2{
+    font-size: 22px;
+    font-weight: 500;
+    color: var(--text-white);
+}
