@@ -11,6 +11,7 @@
     text-decoration: none;
     list-style-type: none;
     font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
 }
 
 body {
@@ -22,8 +23,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 135px;
-    padding: 0 65px 0 41px;
+    width: 100%;
+    padding: 2rem;
 }
 
 .navbar,
@@ -50,37 +51,40 @@ header {
 
 .notif-icon {
     position: absolute;
-    z-index: 1;
+    margin-left: 10px;
+    margin-top: -4px;
 }
 
 .head-icon {
     position: absolute;
-    z-index: 1;
+    padding-left: 2px;
+    margin-top: -3px;
 }
 
 
 main {
     display: flex;
     flex-direction: column;
-    align-items: center;
+   /*  align-items: center; */
     justify-content: center;
     color: var(--text-white);
 }
 
 #hero {
-    margin-top: 20px;
-    padding: 50px 0;
-    max-width: 1200px;
+   /*  margin-top: 20px;
+    padding: 50px 0; */
+  /*   max-width: 1200px; */
     display: flex;
-    justify-content: center;
+/*     justify-content: center; */
     align-items: center;
+    justify-content: space-evenly;
 }
 
 .hero-info {
     display: flex;
     flex-direction: column;
     gap: 34px;
-    width: 50%;
+    width: 40%;
 }
 
 .hero-info h1 {
@@ -101,30 +105,57 @@ main {
     font-size: 14px;
     font-weight: 700;
     text-align: center;
-    background-color:  background: rgb(255,161,0);
+    background-color:  rgb(255,161,0);
     background: linear-gradient(90deg, rgba(255,161,0,1) 0%, rgba(251,16,61,1) 100%); 
 }
 
 .card {
-    width: 300px;
-    padding: 20px;
+   /*  width: 300px;
+    padding: 20px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-left: 8rem;
 }
 
 .photo-1 {
     width: 265px;
     height: 265px;
+    position: absolute;
+    margin-left: 8rem;
+    /* padding-top: rem; */
+    margin-top: -15rem;
 }
 
 .photo-2 {
     width: 392px;
     height: 392px;
+    padding-top: 4rem;
 }
 
 .recommendations h2{
     font-size: 22px;
     font-weight: 500;
     color: var(--text-white);
+    display: flex;
 }
+
+.products-container  {
+    border: 1px solid white;
+    width: 347px;
+    height: 103px;
+  /*   display: flex; */
+  
+}
+
+.menuimg {
+    display: flex;
+    justify-content: center;
+}
+
+#recommend-cards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
