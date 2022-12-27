@@ -36,7 +36,7 @@ header {
 
 
 #products-pizza h2{
-    color: #FFFFFF;
+    color:var(--text-white);
     
 }
 
@@ -51,7 +51,7 @@ header {
 }
 
 .pizza {
-    background: #252525;
+    background: var(--background);
     padding: 20px;
     border-radius: 15px;
     display: flex;
@@ -83,13 +83,13 @@ header {
     font-family:'Montserrat', sans-serif;
     font-size: 15px;
     font-weight: 500;
-    color:#FFFFFF;
+    color:var(--text-white);
 }
 
 .product-mid p{
 font-size: 14px;
 font-weight: 400;
-color:#FFFFFF;
+color:var(--text-white);
 opacity: 0.3;
 }
 
@@ -107,11 +107,38 @@ background-clip: text;
 }
 
 .btn-add{
-color: #FFFFFF;
+color: var(--text-white);
 background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
 border-radius: 10px;
 border: none;
 padding: 10px 35px;
 cursor: pointer;
 
+}
+
+footer{
+    color:var(--text-white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+    padding:60px 0;
+}
+
+footer a,
+footer p{
+    color: var(--text-white);
+    font-weight: 400;
+    font-size: 17px;
+}
+
+footer span{
+    font-weight: 800;
+}
+
+.footer-links{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
