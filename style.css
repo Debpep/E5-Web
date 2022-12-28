@@ -1,5 +1,5 @@
 :root {
-    --background: #252525;
+    --background: #131415;
     --text-white: #FFFFFF;
     --bg-yellow:#FFA400;
     --bg-red:#FC2933;
@@ -66,7 +66,6 @@ header {
 main {
     display: flex;
     flex-direction: column;
-   /*  align-items: center; */
     justify-content: center;
     color: var(--text-white);
 }
